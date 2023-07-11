@@ -1,0 +1,31 @@
+@media only screen and (min-width: 440px) {
+
+    header{
+        nav{
+            h1{
+                margin: 1.5rem;
+            }
+            button{
+                margin: 1.5rem 2rem;
+            }
+        }
+    }
+
+    main{
+        section{
+            min-height: 0;
+            padding: 7rem 0;
+            h2{
+                display: inline-block;
+            }
+        }
+        .portfolio-section{
+            div{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+        }
+    }
+}

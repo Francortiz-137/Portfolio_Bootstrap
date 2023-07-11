@@ -1,0 +1,39 @@
+.portfolio-section{
+    color: #293e50;
+
+    h2{
+        padding: 5rem 0;
+
+        &::after{
+            content: "";
+            display: block;
+            width: 80%;
+            height: 7px;
+            background-color: #293e50;
+            position: relative;
+            left: 10%;
+            margin-top: 10px;
+            
+        }
+    }
+
+    p{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    
+    img:hover
+    {
+        cursor: pointer;
+
+        &::after{
+            /* TODO */
+            content: "";
+            height: 100px;
+            width: 100px;
+            background-color: red;
+
+        }
+    }
+    
+}

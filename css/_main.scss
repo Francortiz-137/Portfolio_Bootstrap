@@ -1,0 +1,28 @@
+main{
+    text-align: center;
+
+    
+    h2{
+        font-size: 4rem;
+        font-weight: 700;
+    }
+
+    section{
+        padding: 7rem 0;
+    }
+    img{
+        height: 200px;
+    }
+
+    
+    @import "hero-section";
+    
+    @import "portfolio-section";
+
+    @import "about-me";
+
+    @import "contact";
+
+    @import "social";
+    
+}

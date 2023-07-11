@@ -1,0 +1,44 @@
+
+
+nav{
+    background-color: #745381;
+    padding: 1rem 1rem;
+    
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .nav-button{
+        background-color: rgba(255, 255, 255, 0.651);
+        padding: 1rem;
+        border-radius: 8px;
+        span{
+            color: white;
+        }
+    }
+
+
+    .navbar-nav{
+        .nav-item{
+            
+            .nav-link{
+                color: white;
+                font-size: 2rem;
+                padding: 1rem 2rem;
+                border-radius: 8px;
+                &:hover{
+                    color:#cdbace;
+                }
+            }
+            .active-link{
+                background-color: #ffffff88;
+                font-weight: 700;
+            }
+        }
+    }
+    
+    
+}

@@ -1,0 +1,297 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body, html {
+  font-family: "Roboto";
+  font-size: 10px;
+}
+
+nav {
+  background-color: #745381;
+  padding: 1rem 1rem;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+}
+nav .nav-button {
+  background-color: rgba(255, 255, 255, 0.651);
+  padding: 1rem;
+  border-radius: 8px;
+}
+nav .nav-button span {
+  color: white;
+}
+nav .navbar-nav .nav-item .nav-link {
+  color: white;
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+}
+nav .navbar-nav .nav-item .nav-link:hover {
+  color: #cdbace;
+}
+nav .navbar-nav .nav-item .active-link {
+  background-color: rgba(255, 255, 255, 0.5333333333);
+  font-weight: 700;
+}
+
+main {
+  text-align: center;
+}
+main h2 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+main section {
+  padding: 7rem 0;
+}
+main img {
+  height: 200px;
+}
+main .hero-section {
+  background-color: rgb(197, 179, 190);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main .hero-section img {
+  height: 300px;
+}
+main .hero-section h2 {
+  padding: 5rem 0;
+}
+main .hero-section h2::after {
+  content: "";
+  display: block;
+  width: 80%;
+  height: 7px;
+  background-color: #ffffff;
+  position: relative;
+  left: 10%;
+  margin-top: 10px;
+}
+main .hero-section h2::after ::before {
+  content: "\f005";
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  background-color: rgb(197, 179, 190);
+  padding: 0 5px;
+}
+main .hero-section p {
+  font-size: 2.5rem;
+}
+main .portfolio-section {
+  color: #293e50;
+}
+main .portfolio-section h2 {
+  padding: 5rem 0;
+}
+main .portfolio-section h2::after {
+  content: "";
+  display: block;
+  width: 80%;
+  height: 7px;
+  background-color: #293e50;
+  position: relative;
+  left: 10%;
+  margin-top: 10px;
+}
+main .portfolio-section p {
+  font-size: 2rem;
+  font-weight: 700;
+}
+main .portfolio-section img:hover {
+  cursor: pointer;
+}
+main .portfolio-section img:hover::after {
+  /* TODO */
+  content: "";
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+main .about-me-section {
+  background-color: rgb(197, 179, 190);
+  color: white;
+}
+main .about-me-section h2 {
+  padding: 0 0 5rem;
+}
+main .about-me-section h2::after {
+  content: "";
+  display: block;
+  width: 80%;
+  height: 7px;
+  background-color: white;
+  position: relative;
+  left: 10%;
+  margin-top: 10px;
+}
+main .about-me-section p {
+  text-align: left;
+  padding: 0 2rem 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+main .about-me-section button {
+  font-size: 2rem;
+  padding: 1rem;
+  border: 2px solid white;
+  border-radius: 8px;
+}
+main .contact-section {
+  color: #293e50;
+}
+main .contact-section h2 {
+  padding: 5rem 0;
+}
+main .contact-section h2::after {
+  content: "";
+  display: block;
+  width: 80%;
+  height: 7px;
+  background-color: #293e50;
+  position: relative;
+  left: 10%;
+  margin-top: 10px;
+}
+main .contact-section form {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin-left: 1rem;
+  font-size: 2rem;
+  color: #445869;
+}
+main .contact-section form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+}
+main .contact-section form input, main .contact-section form textarea {
+  border: none;
+  border-bottom: 2px solid rgb(211, 213, 219);
+}
+main .contact-section form textarea {
+  resize: none;
+}
+main .contact-section form button.btn-send {
+  background-color: rgba(205, 186, 206, 0.431372549);
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  align-self: flex-start;
+  border: none;
+}
+main .social-section {
+  color: white;
+  background-color: #55738d;
+  padding: 5rem 2rem;
+}
+main .social-section h3 {
+  padding: 5rem 0 2rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+main .social-section p {
+  font-size: 1.8rem;
+}
+main .social-section .social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+main .social-section .social-icons .circle {
+  border: 3px solid white;
+  padding: 1rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+}
+main .social-section .social-icons .social-icon {
+  color: white;
+  font-size: 2rem;
+}
+main .social-section .social-icons a {
+  text-decoration: none;
+}
+
+footer {
+  background-color: rgb(38, 48, 65);
+  color: white;
+  text-align: center;
+}
+footer p {
+  margin: 0;
+  padding: 2rem 0;
+  font-size: 1.6rem;
+}
+
+@media only screen and (min-width: 440px) {
+  header nav h1 {
+    margin: 1.5rem;
+  }
+  header nav button {
+    margin: 1.5rem 2rem;
+  }
+  main section {
+    min-height: 0;
+    padding: 7rem 0;
+  }
+  main section h2 {
+    display: inline-block;
+  }
+  main .portfolio-section div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 769px) {
+  header nav div {
+    display: flex;
+    justify-content: flex-end;
+  }
+  main .hero-section h2 {
+    margin: 0 33%;
+  }
+  main .portfolio-section div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0;
+    margin: 0 30%;
+  }
+  main .about-me-section div {
+    display: flex;
+    margin: 0 15%;
+  }
+  main .about-me-section div p {
+    padding-bottom: 5rem;
+  }
+  main .contact-section form {
+    margin: 0 30%;
+  }
+  main .social-section {
+    display: flex;
+    justify-content: center;
+    gap: 15rem;
+  }
+  main .social-section article {
+    max-width: 350px;
+  }
+}/*# sourceMappingURL=styles.css.map */

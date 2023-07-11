@@ -1,0 +1,57 @@
+@media only screen and (min-width: 769px) {
+
+    header{
+        nav{
+            div{
+                display: flex;
+                justify-content: flex-end;
+            }
+
+            
+        }
+    }
+
+    main{
+        .hero-section{
+            h2{
+                margin: 0 33%;
+            }
+        }
+
+        .portfolio-section{
+            div{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-gap: 0;
+                margin: 0 30%;
+            }
+        }
+
+        .about-me-section{
+            div{
+                display: flex;
+                margin: 0 15%;
+                p{
+                    padding-bottom: 5rem;
+                }
+            }
+        }
+
+        .contact-section{
+            form{
+                margin: 0 30%;
+            }
+        }
+
+        .social-section{
+            display: flex;
+            justify-content: center;
+            gap: 15rem;
+            article{
+                max-width: 350px;
+            }
+        }
+    }
+
+
+}

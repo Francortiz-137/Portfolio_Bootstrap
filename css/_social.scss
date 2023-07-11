@@ -1,0 +1,41 @@
+.social-section{
+    color: white;
+    background-color: #55738d;
+    padding: 5rem 2rem;
+
+    h3{
+        padding: 5rem 0 2rem;
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+    p{
+        font-size: 1.8rem;
+    }
+
+    .social-icons{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+
+        .circle{
+            border: 3px solid white;
+            padding: 1rem;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50px;
+            width: 50px;
+        }
+
+        .social-icon{
+            color: white;
+            font-size: 2rem;
+
+        }
+        a{
+            text-decoration: none;
+        }
+    }
+
+}
